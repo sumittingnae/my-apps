@@ -1,0 +1,92 @@
+.golbal-network .head{
+    margin-top: 80px;
+}
+
+.golbal-network .head h3{
+    font-size: 40px;
+    width: 450px;
+    border: 1px solid #fff;
+    margin-left: 500px;
+}
+.golbal-network .head p {
+    font-size: 15px;
+    width: 450px;
+    border: 1px solid #fff;
+    margin-left: 500px;
+}
+.golbal-network .head p span{
+    font-weight: bold;
+}
+.golbal-image img{
+    width: 800px;
+
+}
+.golbal-network .service {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 420px;
+}
+.golbal-network .service img{
+    width: 150px;
+    margin-right: 20px;
+}
+
+@media(max-width:991px) {
+
+    html {
+        font-size: 100%;
+    }
+
+    .heading {
+        margin-top: 80px;
+    }
+          .golbal-network .head {
+              margin-top: 80px;
+          }
+
+}
+
+@media(max-width:768px) {
+   
+
+ 
+
+   .golbal-network .head h3 {
+       font-size: 20px;
+       width: 250px;
+       border: 1px solid #fff;
+       margin-left: 80px;
+   }
+
+   .golbal-network .head p {
+       font-size: 10px;
+       width: 250px;
+       border: 1px solid #fff;
+       margin-left: 80px;
+   }
+
+   .golbal-network .head p span {
+       font-weight: bold;
+   }
+   .golbal-image img {
+       width: 350px;
+        margin-left: -5px;
+        margin-top: 30px;
+
+   }
+
+   .golbal-network .service {
+       margin-top: 40px;
+       display: flex;
+       margin-left: 10px;
+   }
+
+   .golbal-network .service img {
+       width: 60px;
+       margin-right: 10px;
+   }
+
+    
+
+
+}

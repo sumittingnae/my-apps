@@ -1,0 +1,111 @@
+
+.ULS-info {
+    border: 1px solid rgb(246, 246, 246);
+    width: 1050px;
+    margin: 70px 0px 0px 200px ;
+    background:rgb(255, 255, 255);
+    display: flex;
+    padding: 30px;
+    box-shadow: 5px 10px 20px #e1dede;
+}
+.ULS-info  img{
+    position: absolute;
+    margin-top: 20px;
+    border: 1px solid rgba(228, 87, 87, 0.963);
+    padding: 10px 10px 10px 10px;
+    width: 40px;
+    border-radius: 50px;
+    background: rgba(252, 230, 230, 0.962);
+  
+    
+}
+.ULS-info .server {
+    margin-left: 120px;
+}
+.ULS-info .location {
+    margin-left: 120px;
+}
+
+.ULS-info  h4{
+    margin: 10px 0px 0px 160px;
+}
+.ULS-info .user h5{
+    margin: 0px 0px 0px 160px;
+    color: #7d7a7ad3;
+}
+.ULS-info .location h5 {
+    margin: 0px 0px 0px 185px;
+    color: #7d7a7ad5;
+}
+.ULS-info .server h5 {
+    margin: 0px 0px 0px 180px;
+    color: #7d7a7ad3;
+}
+
+@media(max-width:991px) {
+
+    html {
+        font-size: 100%;
+    }
+        .ULS-info {
+            border: 1px solid rgb(246, 246, 246);
+            width: 320px;
+            margin: 70px 0px 0px 15px;
+            background: rgb(255, 255, 255);
+            display: flex;
+            padding: 20px 0px 20px 0px;
+            box-shadow: 5px 10px 20px #e1dede;
+        }
+               
+
+   
+
+
+}
+
+
+@media(max-width:768px) {
+   
+.ULS-info img {
+        position: absolute;
+        margin: 10px 0px 0px -10px;
+        border: 1px solid rgba(228, 87, 87, 0.963);
+        padding: 5px 5px 5px 5px;
+        width: 25px;
+        border-radius: 30px;
+        background: rgba(252, 230, 230, 0.962);
+
+
+    }
+         
+        .ULS-info .server {
+            margin-left: 15px;
+        }
+    
+        .ULS-info .location {
+            margin-left: 15px;
+        }
+                .ULS-info h4 {
+                    margin: 10px 0px 0px 60px;
+                    font-size: 10px;
+                }
+        
+                .ULS-info .user h5 {
+                    margin: 0px 0px 0px 60px;
+                    color: #7d7a7ad3;
+                    font-size: 8px;
+                }
+        
+                .ULS-info .location h5 {
+                    margin: 0px 0px 0px 68px;
+                    color: #7d7a7ad5;
+                    font-size: 8px;
+                }
+        
+                .ULS-info .server h5 {
+                    margin: 0px 0px 0px 60px;
+                    font-size: 8px;
+                    color: #7d7a7ad3;
+                }
+
+}

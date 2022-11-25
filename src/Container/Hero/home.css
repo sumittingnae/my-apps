@@ -1,0 +1,93 @@
+.hero{
+    margin: 50px 0px 0px 200px;
+    text-align: left;
+    display: flex;
+    
+}
+.hero .left-side h1 {
+    width: 400px;
+    line-height: 1.5;
+}
+.hero .left-side h4 {
+    width: 450px;
+    font-size: 12px;
+
+    line-height: 1.6;
+    font-weight: 400;
+    
+}
+.hero .left-side h1 span{
+    font-weight:bold;
+    
+}
+.hero .left-side h4 span {
+    font-weight: bold;
+}
+.hero .left-side .get-stared a .btn{
+    border: 1px solid #e93d3e;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #e93d3e;
+    padding: 12px 45px 12px 45px;
+        font-weight: bold;
+        font-size: 12px;
+        box-shadow: 5px 10px 20px #e93d3e;
+    margin-top: 50px;
+  
+}
+.hero .right-side img{
+    width: 500px;
+    margin: 0px 0px 0px 30px;
+}
+
+@media(max-width:991px) {
+
+    html {
+        font-size: 100%;
+    }
+        .hero {
+            margin: 50px 0px 0px 30px;
+            text-align: left;
+           position: inherit;
+    
+        }
+             
+    
+}
+
+
+@media(max-width:768px) {
+    .hero .left-side h1 {
+            width: 150px;
+            line-height: 1.5;
+            font-size: 12px;
+        }
+    
+        .hero .left-side h4 {
+            width: 150px;
+            font-size: 8px;
+    
+            line-height: 1.6;
+            font-weight: 400;
+    
+        }
+                .hero .right-side img {
+                    width: 150px;
+                    margin: 0px 0px 0px 0px;
+                }
+           .hero .left-side .get-stared .btn {
+               border: 1px solid #e93d3e;
+               color: aliceblue;
+               background-color: #e93d3e;
+               padding: 8px 45px 8px 45px;
+               font-weight: bold;
+               font-size: 10px;
+               box-shadow: 5px 10px 20px #e93d3e;
+               margin-top: 50px;
+               border-radius: 5px;
+    
+           }
+
+
+
+}

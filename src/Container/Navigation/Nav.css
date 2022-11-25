@@ -1,0 +1,178 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ html {
+     font-size: 100%;
+ }
+
+.header{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+
+}
+.header .logo{
+  width: 50px;
+  margin-top: 20px;
+  margin-left: -100px;
+   
+}
+
+.header .logo img{
+    width: 150px;
+}
+.header .nav{
+    margin: 20px 0px 0px 120px;
+    align-items: center;
+
+
+}
+#menu-bar {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #e93d3e;
+    border: .1rem solid #e93d3e;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: none;
+}
+#menu-bar:hover{
+    background:#e93d3e ;
+    color: white;
+}
+
+.header .btn1{
+    border-radius: 50px;
+        padding: 10px 35px 10px 35px;
+        border: 1px solid #e93d3e;
+        background: none;
+        color: #e93d3e;
+}
+.header .nav a{
+    margin: 0px 0px 0px 50px;
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+    
+}
+.header .nav a:hover{
+    color: #e93d3e;
+}
+
+.header .sign{
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+.header .sign a{
+    margin: 20px 0px 0px 35px;
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+}
+.header .sign a:hover{
+    color: #e93d3e;
+    
+}
+
+.header .sign a .btn{
+    border-radius: 50px;
+   padding: 10px 35px 10px 35px ;
+    border: 1px solid #e93d3e;
+    background:none;
+    color: #e93d3e;
+    
+
+}
+.header .sign a .btn:hover{
+    background: #e93d3e;
+    color: white;
+}
+@media(max-width:991px) {
+
+    html {
+        font-size: 100%;
+    }
+    .header{
+        padding: 30px;
+        border: 1px solid #fff;
+        box-shadow: 5px 10px 20px #e1dede;
+        
+    }
+
+  
+}
+
+
+@media(max-width:768px) {
+
+  
+        .header .logo {
+            
+            margin-top: 20px;
+            margin-left:-40px;
+    
+        }
+               
+                .header .logo img {
+                    width: 80px;
+                }
+        .header .nav {
+         margin: 80px 0px 0px -60px;
+     }
+         .header .nav a {
+             margin: 0px 0px 0px 20px;
+             text-decoration: none;
+             color: rgb(87, 85, 85);
+             font-size: 10px;
+    
+         }
+                 .header .nav a:hover {
+                     color: #e93d3e;
+                 }
+        
+                 .header .sign {
+                     margin-top: 0px;
+                     margin-left: -80px;
+                     display: flex;
+        
+                 }
+        
+                 .header .sign a {
+                     margin:20px 0px 0px 0px;
+                     text-decoration: none;
+                     color: rgb(87, 85, 85);
+                     font-size: 10px;
+                 }
+        
+                 .header .sign a:hover {
+                     color: #e93d3e;
+        
+                 }
+        
+                 .header .sign a .btn {
+                     border-radius: 40px;
+                     padding: 10px 0px 10px 0px;
+                     border: 1px solid #e93d3e;
+                     background: none;
+                     color: #e93d3e;
+                     margin-left: 12px;
+                     width: 50px;
+                     font-size: 10px;
+                     margin-top:-20px;
+        
+        
+                 }
+        
+                 .header .sign a .btn:hover {
+                     background: #e93d3e;
+                     color: white;
+                 }
+
+   
+}

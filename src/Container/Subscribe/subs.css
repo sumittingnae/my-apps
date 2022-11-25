@@ -1,0 +1,90 @@
+.subscribe{
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin:80px 0px  50px 100px ;
+    width: 1000px;
+    height: 150px;
+    box-shadow: 5px 10px 20px #a6a3a3;
+    
+
+}
+.subscribe .left-side{
+    border: 1px solid #fff;
+    width: 300px;
+    font-size: 25px;
+    position: absolute;
+}
+.subscribe .left-side h3 {
+    font-size: 25px;
+}
+.subscribe .left-side p {
+    font-size: 15px;
+}
+.right-side .btn{
+    border: 1px solid #e93d3e;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #e93d3e;
+    padding: 12px 45px 12px 45px;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 5px 10px 20px #e93d3e;
+    margin: 18px 0px 0px 600px;
+
+}
+
+
+@media(max-width:991px) {
+
+    html {
+        font-size: 100%;
+    }
+
+   .subscribe {
+       border: 1px solid #fff;
+       padding: 10px;       border-radius: 10px;
+       margin: 80px 0px 50px 30px;
+       width: 300px;
+       height: 180px;
+       box-shadow: 5px 10px 20px #a6a3a3;
+
+
+   }
+
+}
+
+
+@media(max-width:768px) {
+    .subscribe .left-side {
+        border: 1px solid #fff;
+        width: 280px;
+        font-size: 15px;
+        margin: 15px 0px 0px 5px;
+        
+    }
+    
+    .subscribe .left-side h3 {
+        font-size: 15px;
+    }
+    
+    .subscribe .left-side p {
+        font-size: 10px;
+    }
+    
+    .subscribe .right-side .btn {
+        border: 1px solid #e93d3e;
+        border-radius: 10px;
+        color: aliceblue;
+        background-color: #e93d3e;
+        padding: 12px 45px 12px 45px;
+        font-weight: bold;
+        font-size: 12px;
+        box-shadow: 5px 10px 20px #e93d3e;
+        margin: 100px 0px 0px 50px;
+    
+    }
+
+
+
+}
